@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For XmasTree
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Speedometer		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init			KEYWORD2
+on				KEYWORD2
+off				KEYWORD2
+brighter		KEYWORD2
+blink			KEYWORD2
+state			KEYWORD2
+setValue		KEYWORD2
+getValue		KEYWORD2
+moveTo			KEYWORD2
+loop			KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+#######################################
+# Structures (KEYWORD3)
+#######################################
+
+SpeedoPins		KEYWORD3
+
