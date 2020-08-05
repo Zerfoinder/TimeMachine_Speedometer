@@ -27,7 +27,6 @@ It is possible to show any number between 00.0 to 88.0 mph.
 
 **Note**: It is the responsibility of the user to generate the code send instructions to display at desired time.
 
-
 ## Usage
 
 ```C++
@@ -54,13 +53,17 @@ void loop() {
 ```
 
 ## Components and functions
+
 ### Speedometer Class
+
 #### Example
+
 ```C++
 XmasTree tree; // create an object called: tree. (No parameters are required).
 ```
 
 #### Public methods
+
 | Method | Description |
 | ---------- | ----------- |
 | `Speedometer speedo(speedoPins);` | Constructor. It receives a `SpeedoPins` struct. |
@@ -76,9 +79,11 @@ XmasTree tree; // create an object called: tree. (No parameters are required).
 | `.loop();`    | function used to manage concurrent actions. It should be ALWAYS added in the end of sketch loop() method. |
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 [![donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://paypal.me/zerfoinder)
 
 ## License
+
 This library is licensed under [GPLv3](https://www.gnu.org/licenses/quick-guide-gplv3.html).
